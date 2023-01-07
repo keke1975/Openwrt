@@ -17,3 +17,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default

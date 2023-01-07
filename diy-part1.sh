@@ -1,32 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-Lenyu2020
-/
-Actions-OpenWrt-x86
-Public
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Actions-OpenWrt-x86/diy-part1.sh
-@Lenyu2020
-Lenyu2020 Update diy-part1.sh
-Latest commit 20ffa8d last week
- History
- 2 contributors
-@Lenyu2020@Blueplanet20120
-Executable File  341 lines (329 sloc)  13.7 KB
-
-#!/bin/bash
-#
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 # This is free software, licensed under the MIT License.
@@ -363,21 +334,3 @@ else
 fi
 exit 0
 EOF
-
-
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Actions-OpenWrt-x86/diy-part1.sh at main · Lenyu2020/Actions-OpenWrt-x86 · GitHub
-1

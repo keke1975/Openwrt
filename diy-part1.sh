@@ -10,9 +10,10 @@
 
 # Uncomment a feed source
 # Add a feed source
-sed -i "/helloworld/d" "feeds.conf.default"
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
-echo 'src-git passwallluci https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;packages' >>feeds.conf.default
+#sed -i "/helloworld/d" "feeds.conf.default"
+echo "src-git packages https://github.com/coolsnowwolf/packages" >> "feeds.conf.default"
+echo 'src-git luci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
+echo 'src-git routing https://github.com/coolsnowwolf/routing' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >>feeds.conf.default
